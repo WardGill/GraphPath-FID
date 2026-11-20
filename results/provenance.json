@@ -1,0 +1,153 @@
+{
+  "experiment_dataset_content_sha256": "174da72de7868b3712e545d8b4f6f0ad509a5ae3cddd66aeda596f8fc9500bb1",
+  "release_dataset_content_sha256": "17c8b3f6775175a882a6815b19439748d8ad11a975138ea92845f83fa417804f",
+  "dataset_changes": [
+    "Removed upstream label text and example question IDs from family source metadata",
+    "Recomputed content hash"
+  ],
+  "split": "test",
+  "runs": [
+    {
+      "model": "DeepSeek-V4-Flash",
+      "track": "base",
+      "file": "base-deepseek-v4-flash.jsonl",
+      "jobs": 432,
+      "records": 19440,
+      "records_by_phase": {
+        "pre": 3888,
+        "post": 11664,
+        "acquisition": 1296,
+        "retention": 2592
+      },
+      "sha256": "ba4ef2bb0b24f938a640d8457b4c15f843c2521b16ba9619ad46fd263416fa2f"
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "track": "component",
+      "file": "component-deepseek-v4-flash.jsonl",
+      "jobs": 576,
+      "records": 25920,
+      "records_by_phase": {
+        "pre": 5184,
+        "post": 15552,
+        "acquisition": 1728,
+        "retention": 3456
+      },
+      "sha256": "02abe034cba554311f2d2122bc34e82b86409c6a1ac652a370bd700f0f0ad2e3"
+    },
+    {
+      "model": "Qwen3.8-Flash",
+      "track": "base",
+      "file": "base-qwen3.8-flash.jsonl",
+      "jobs": 432,
+      "records": 19440,
+      "records_by_phase": {
+        "pre": 3888,
+        "post": 11664,
+        "acquisition": 1296,
+        "retention": 2592
+      },
+      "sha256": "3452261fd28a53a469cab54ebc616ce288c2a6ec38e1f15856cd8d8c9917f21b"
+    },
+    {
+      "model": "Qwen3.8-Flash",
+      "track": "component",
+      "file": "component-qwen3.8-flash.jsonl",
+      "jobs": 576,
+      "records": 25920,
+      "records_by_phase": {
+        "pre": 5184,
+        "post": 15552,
+        "acquisition": 1728,
+        "retention": 3456
+      },
+      "sha256": "a118590c861fe4ce77a1ad692b155a790dde75d62959811cd55651abc57596a9"
+    },
+    {
+      "model": "DeepSeek-V4.1-Flash",
+      "track": "base",
+      "file": "base-deepseek-v4.1-flash.jsonl",
+      "jobs": 432,
+      "records": 19440,
+      "records_by_phase": {
+        "pre": 3888,
+        "post": 11664,
+        "acquisition": 1296,
+        "retention": 2592
+      },
+      "sha256": "f35c2ba751b42bd69783fdb9189aa7debdbcec49a876735fedbaef5cb0d5766e"
+    },
+    {
+      "model": "DeepSeek-V4.1-Flash",
+      "track": "component",
+      "file": "component-deepseek-v4.1-flash.jsonl",
+      "jobs": 576,
+      "records": 25920,
+      "records_by_phase": {
+        "pre": 5184,
+        "post": 15552,
+        "acquisition": 1728,
+        "retention": 3456
+      },
+      "sha256": "070616e520dd6ae2e8e6628dcaef39b4b1e4f5eb8216d79c72adf042cb202013"
+    },
+    {
+      "model": "Qwen3.8-Max",
+      "track": "base",
+      "file": "base-qwen3.8-max.jsonl",
+      "jobs": 432,
+      "records": 19440,
+      "records_by_phase": {
+        "pre": 3888,
+        "post": 11664,
+        "acquisition": 1296,
+        "retention": 2592
+      },
+      "sha256": "1c204a12740571475d0c4b76fbf1b992977e98972fb6a4c1f5200ca8c43b9ea7"
+    },
+    {
+      "model": "Qwen3.8-Max",
+      "track": "component",
+      "file": "component-qwen3.8-max.jsonl",
+      "jobs": 576,
+      "records": 25920,
+      "records_by_phase": {
+        "pre": 5184,
+        "post": 15552,
+        "acquisition": 1728,
+        "retention": 3456
+      },
+      "sha256": "96f9f682fe85621b891a379b8107ded5ba51c09bc72da44c4051b28d29bfe052"
+    },
+    {
+      "model": "GLM-5.2-Fast-Preview",
+      "track": "base",
+      "file": "base-glm-5.2-fast-preview.jsonl",
+      "jobs": 432,
+      "records": 19440,
+      "records_by_phase": {
+        "pre": 3888,
+        "post": 11664,
+        "acquisition": 1296,
+        "retention": 2592
+      },
+      "sha256": "7e11a777030eba0ccc685261cced1c4c92187c2cb873ac06d1c881b933695d36"
+    },
+    {
+      "model": "GLM-5.2-Fast-Preview",
+      "track": "component",
+      "file": "component-glm-5.2-fast-preview.jsonl",
+      "jobs": 576,
+      "records": 25920,
+      "records_by_phase": {
+        "pre": 5184,
+        "post": 15552,
+        "acquisition": 1728,
+        "retention": 3456
+      },
+      "sha256": "fefbfe7aa500f0fda1ac254315bb7005901bb620ee2db17be3d7f57da34e023a"
+    }
+  ],
+  "response_selection": "Final completed response in the original ledger for each experiment manifest call",
+  "response_count": 226800
+}
